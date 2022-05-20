@@ -293,7 +293,7 @@ paso.onclick = function (e) {
     dispositivo(ctx);
 }
 function update() {
-    switch(caida){
+    switch(caida){ 
         case 0:        //libre antes de la apertura del paracaidsa
             a=gravedad;
             v=gravedad*t + V0;
