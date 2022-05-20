@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="utf-8">
+  <style>
+            body{
+              text-align: center;
+              background-image: url("urss.jpg");
+            }
+            label,sup {
+              color:black;
+              font-family: "Comic Sans MS", "Comic Sans", cursive;
+              font-size: large;
+            }
+            h1 {
+              font-family: "Comic Sans MS", "Comic Sans", cursive;
+              text-align: center;
+                color:dodgerblue;
+                text-align:center;
+            }
+  </style>
+  
+<h1>Problema Paracaidas Grupo 1</h1>
+<body> 
+  </br>
+  <canvas id='canvas_1' width='645' height='400'></canvas>
+    </br>
+    <label for="masa">Masa(Kg):</label>
+		<input type='text' id='masa_1'  value='72' size='3'/> 
+    </br>
+    <label for="area">Area(m<sup>2</sup>):</label>
+		<input type='text' id='area_1'  value='0.6' size='3'/>
+    </br>
+    
+    <label for="AlturaMAx">Altura Inicial(m):</label>
+		<input type='text' id='AlturaMaxima'  value='2000' size='3'/>
+    </br>
+  
+    <label for="AlturaMAx">Velocidad Inicial(m/s):</label>
+		<input type='text' id='velI'  value='0' size='3'/>
+    </br>
+  
+    <label for="gravedad">Gravedad (m/s<sup>2</sup>):</label>
+		<input type='text' id='gravedad'  value='9.8' size='3'/>
+    </br>
+  
+		<div id='botones'>
+<input id='nuevo' type='button' value='Nuevo'/>
+<input id='empieza' type='button' value='&#9658;'/>
+<input id='pausa' type='button' value='||'/>
+<input id='paso' type='button' value='&gt;|' style='display:none'/>
+			<input id='abre' type='button' value='Abre'/>
+      <a href="https://www.youtube.com/watch?v=FN5oLBXiNvM">
+   <button>Oprimir en caso de 5</button>
+</a>
+		</div>
+    </div>
+
+ 
+	<script src='paracaidas.js'></script>       
+</body>
+</html>

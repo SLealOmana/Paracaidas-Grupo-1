@@ -1,0 +1,14 @@
+html, body,label {
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  background-color: blue;
+  color: blue;
+  height: 100%;
+  width: 100%;
+  background-image: "urss.jpg";
+}
+h1 {
+
+  height: 400%;
+  width: 400%;
+}
