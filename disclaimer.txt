@@ -1,0 +1,13 @@
+Para la realizacion de este trabajo se usaron diversos recursos como paginas web, videos de youtube y documentos pdf.
+los videos fueron clases de dinamica de paracaidismo, resistencia erodinamica y ejemplos basicos de resistencia de fluidos.
+dentro de los pdf se encuentran estos dos:
+https://www.uv.es/~dae/Apunte6.pdf
+http://www.educacionespacial.aem.gob.mx/images_ise/pdf/14%20diseno%20de%20paracaidas.pdf#:~:text=Aerodin%C3%A1mica%20de%20un%20paraca%C3%ADdas%20El%20coeficiente%20de%20arrastre,de%20arrastre%20a%20cierta%20velocidad%20o%20presi%C3%B3n%20din%C3%A1mica.
+y dentro de las paginas web se encuentra:
+https://www.w3schools.com de donde se saco referencias del manejo de css y html
+diversas paginas de fisica de donde se sacaron formulas y ejemplos
+http://www.sc.ehu.es/sbweb/fisica3/fluidos//paracaidas/paracaidas.html#:~:text=Observar%20que%20la%20velocidad%20límite%20es%20independiente%20de,peso%20del%20paracaidista%2C%20incrementando%20el%20área%20del%20paracaídas de donde se saco la grafica del modelo
+
+Agradcecemos enormemente a las personas encargadas de la realizacion de esos trabajos/paginas/clases pues fueron de mucha ayuda en el trabajo.
+
+este trabajo tiene fines de estudio e investigacion estudiantil y se usaron herramientas de acceso publico para ello.

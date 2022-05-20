@@ -1,4 +1,4 @@
-html, body,label {
+html, body2,label {
   text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
   background-color: blue;
@@ -12,3 +12,9 @@ h1 {
   height: 400%;
   width: 400%;
 }
+pNormal {
+              background-image: url("paracaidas normal.png");
+              background-repeat: no-repeat;
+              width: 600px;
+              height: 200px;
+              }

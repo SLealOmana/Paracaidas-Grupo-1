@@ -6,11 +6,24 @@
             body{
               text-align: center;
               background-image: url("urss.jpg");
+              background-color: lightgray;
+              
             }
-            label,sup {
+            canvas{
+              border: 2px dotted blue;
+            }
+            body2{
+              text-align: center;
+              background-color: whitesmoke;
+            }
+            label,sup,textarea {
               color:black;
               font-family: "Comic Sans MS", "Comic Sans", cursive;
               font-size: large;
+              text-align: justify;
+              background-color: white;
+              background-blend-mode: lighten;
+              border: 1px dotted blue;
             }
             h1 {
               font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -18,7 +31,11 @@
                 color:dodgerblue;
                 text-align:center;
             }
-  </style>
+
+            imageP {
+              
+            }
+            </style>
   
 <h1>Problema Paracaidas Grupo 1</h1>
 <body> 
@@ -40,6 +57,14 @@
 		<input type='text' id='gravedad'  value='9.8' size='3'/>
     </br>
   
+    <label for="tiempo">intervalos de tiempo:</label>
+		<input type='text' id='intervalos'  value='0.1' size='3'/>
+    </br>
+  
+    <label for="tiempo">Coheficiente de forma:</label>
+		<input type='text' id='forma'  value='0.8' size='3'/>
+    </br>
+  
 		<div id='botones'>
 <input id='nuevo' type='button' value='Nuevo'/>
 <input id='empieza' type='button' value='&#9658;'/>
@@ -55,4 +80,48 @@
  
 	<script src='paracaidas.js'></script>       
 </body>
+   </br>
+  <textarea id="ParacaidasInfo" name="info" rows="16" cols="70">
+Para el problema del paracaidas se usaron diversas formulas, tambien se pueden modificar diversos valores como lo son la Masa del paracaidista, el Area del paracaidas, la altura desde la cual se lanza el paracaidista, la gravedad que afecta al paracaidista, los intervalos en los cuales se grafica (velocidad de graficado) o el coheficiente de la forma.
+Despues de realizar varias pruebas observamos como algunas variables influyen en el comportamiento del problema.
+*A mayor altitud, mayor velocidad se puede alcanzar, adicionalmente, cambia la densidad del aire, a mayor altura menor es esta misma.
+*A mayor gravedad, mas rapido deciende y viceversa.
+*A mayor area de paracaidas menor es la caida y viceversa.
+*A mayor masa, mayor es el area necesaria del paracaidas para poder generar una resistencia al aire y viceversa.
+*A mayor es el coheficiente de forma mayor es la resistencia generada y menor la velocidad limite.
+</textarea>
+</br>
+  <imageP>
+    <img src="pNormal.png">
+    </br>
+    <label for="pNormal">Ejemplo Normal</label>
+    </br
+  </imageP>
+   </br>
+  <textarea id="ParacaidasInfo" name="info" rows="3" cols="70">
+En esta Grafica se puede observar una apertura normal del paracaidas a una altura considerable, logrando asi la velocidad limite y reduciendo la aceleracion a 0 entrando en un frendado 'seguro'.
+</textarea>
+</br>
+  <imageP>
+    <img src="pTemprano.png">
+    </br>
+    <label for="pTemprano">Ejemplo Apertura Temprana</label>
+    </br
+  </imageP>
+   </br>
+  <textarea id="ParacaidasInfo" name="info" rows="4" cols="70">
+Aca, ocurrio algo distinto a la anterior grafica pues el paracaidas se abrio antes de tiempo ocacionando que a diferencia del anterior el paracaidista no alcance una velocidad tan alta y mas bien se mantenga en la velocidad limite por mas tiempo, alargando asi el tiempo de vuelo.
+</textarea>
+</br>
+  <imageP>
+    <img src="pTardio.png">
+    </br>
+    <label for="pTardio">Ejemplo Apertura Tardia</label>
+    </br
+  </imageP>
+   </br>
+  <textarea id="ParacaidasInfo" name="info" rows="3" cols="70">
+En este ejemplo de una apertura fallida observamos como el paracaidista abre el paracaidas muy tarde y por ende no logra llegar a la velocidad terminal y choca con el suelo aun presentando una aceleracion, siendo este un aterrizaje fallido e inseguro.
+</textarea>
+</br>
 </html>
