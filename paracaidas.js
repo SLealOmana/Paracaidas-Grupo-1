@@ -303,7 +303,7 @@ function update() {
             var c=(v0+Vl)*Math.exp(Math.sqrt(gravedad*k/m)*(t-t0));
             var d=(v0-Vl)*Math.exp(-Math.sqrt(gravedad*k/m)*(t-t0));
             v=Vl*(c+d)/(c-d) + V0;
-            a=gravedad-k*v*V/m;
+            a=gravedad-k*v*v/m;
             x=x0-m*Math.log((Vl*Vl-v*v)/(Vl*Vl-v0*v0))/(2*k);
             if(Math.abs(v-Vl)<0.001){
                 caida=2;
