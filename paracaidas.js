@@ -46,10 +46,10 @@ orgXX=13*wChar,
 	t=0,
 //posición y velocidad
     x=0, 
-	v, 
+	v=0, 
 	a=gravedad, 
 	x0, 
-	v0, 
+	v0= 0, 
 	t0,
 //Altura maxima
  
@@ -238,11 +238,11 @@ nuevo.onclick = function (e) {
 	  k=1.29*area*0.8/2;
     Vl=Math.sqrt(gravedad*m/k);
     t=0.0;
-    
+    V0 = 0;
     xMax = AlturaMaxima;
     x=xMax-xInicial;         //2000 m
     x_1 = x;  
-    
+    v=0;
     a=gravedad;
 	caida=0;
 	pol.length=0;
@@ -293,7 +293,7 @@ paso.onclick = function (e) {
     dispositivo(ctx);
 }
 function update() {
-    switch(caida){ 
+    switch(caida){
         case 0:        //libre antes de la apertura del paracaidsa
             a=gravedad;
             v=gravedad*t + V0;
